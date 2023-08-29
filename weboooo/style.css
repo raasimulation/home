@@ -1,0 +1,35 @@
+    body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+  }
+
+  .hello:hover {
+    cursor:url(http://www.picgifs.com/smileys/smileys-and-emoticons/money/smileys-money-671353.gif), 200px;
+    }
+    .blankspace {
+        margin-top: 24px;
+    }
+
+    .nohead {
+        font-size: 64px;
+    }
+
+    .tinyh4 {
+        font-size: 24px;
+        color: coral;
+    }
+
+    .li {
+        padding:1em;
+        display:block;
+        list-style-type: disc;
+    }
