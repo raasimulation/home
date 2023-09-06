@@ -1,35 +1,71 @@
-    body {
-    background-color: lightblue;
-  }
-  
-  h1 {
-    color: white;
-    text-align: center;
-  }
-  
-  p {
-    font-family: 'Lucida Sans';
-    font-size: 20px;
-  }
+      html {
+        cursor: url(money.gif), auto;
+        background-color: white;
+      }
 
-  .hello:hover {
-    cursor:url(http://www.picgifs.com/smileys/smileys-and-emoticons/money/smileys-money-671353.gif), 200px;
-    }
-    .blankspace {
+      h1 {
+        color: rgb(76, 197, 106);
+        text-align: center;
+      }
+
+      .blankspace {
         margin-top: 24px;
-    }
+        padding-left: 2px;
+      }
 
-    .nohead {
+      p {
+        font-family: 'Lucida Sans';
+        font-size: 20px;
+      }
+
+      .blankspace {
+        margin-top: 24px;
+      }
+
+      .nohead {
         font-size: 64px;
-    }
+      }
 
-    .tinyh4 {
+      .tinyh4 {
         font-size: 24px;
         color: coral;
-    }
+      }
 
-    .li {
-        padding:1em;
-        display:block;
+      .li {
+        padding: 1em;
+        display: block;
         list-style-type: disc;
-    }
+      }
+
+
+      .nohead {
+        font-size: 64px;
+      }
+
+      .mama {
+        text-align: right;
+        padding-right: 12px;
+      }
+
+      .baby {
+        margin-left: 48px;
+        font-size: 24px;
+        display: inline-block;
+        padding: 12px;
+        vertical-align: middle;
+        color: rgb(80, 147, 255);
+      }
+      
+      h2 a { 
+        position:relative; 
+      }
+      
+      h2 a span { 
+        position:absolute; 
+        display:none; 
+        z-index:99; 
+      }
+
+      h2 a:hover span { 
+        display:block; 
+      }

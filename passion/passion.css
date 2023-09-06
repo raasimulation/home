@@ -2,7 +2,7 @@ html {
     height: 100%;
     margin: auto;
     overflow: scroll;
-    cursor: url(cursor.gif), pointer;
+    cursor: url(cursor.gif), default;
 }
 
 .background {
@@ -15,15 +15,20 @@ html {
 .back {
     color: rgb(121, 252, 94);
     font-family:cursive;
-    background-color: black;
-    padding-inline: 12px;
+    background-color: rgb(15, 16, 13);
+    padding-inline: 20px;
+    border-radius: 8px;
 }
+
 .h2 {
     text-align: center;
     margin-top: 10px;
     font-size: 24px;
     font-weight: 700;
     background-color: burlywood;
+    border-radius: 4px;
+    border: 4px inset rgb(121, 252, 94);
+    padding-block: 12px;
 }
 
 .h1 {

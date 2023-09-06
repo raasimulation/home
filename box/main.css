@@ -1,0 +1,37 @@
+.mama-box {
+    background-color: rgb(231, 231, 231);
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.boxy-box {
+    flex: 1;
+    background-color: indianred;
+    padding: 8px;
+    margin: 12px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    border: 12px inset;
+    border-color: rgb(154, 188, 120);
+    color: rgb(238, 182, 182);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.border-box {
+    background-color: rgb(155, 187, 137);
+    margin: 12px;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    border: 12px inset;
+    border-color: rgb(154, 188, 120);
+    color: rgb(52, 82, 34);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
