@@ -1,0 +1,120 @@
+html {
+    height: 100%;
+    margin: auto;
+    overflow: scroll;
+    cursor: url(cursor.gif), default;
+}
+
+#background {
+    background-image: url('rain.gif');
+    background-position: center;
+    background-size: cover;
+    overflow:hidden;
+}
+
+
+
+.back {
+    color: rgb(255, 255, 255);
+    font-family: Karla;
+    margin-top: 12px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.h2 {
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 48px;
+    color: aliceblue;
+    font-weight: 700;
+    padding-block: 12px;
+}
+
+.imgcenter {
+    display: inline-block;
+    margin: 24px 10px;
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    text-shadow: 2px 2px #d0ff00;
+    font-family: Karla;
+    margin-bottom: 36px;
+}
+
+.p1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    width:820px;
+    color:white;
+    background-color: black;
+    padding: 14px;
+    font-family: Karla;
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.itembox {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.list-item {
+    font-size: 16px;
+    width: 250px;
+    height: 300px;
+    font-family: Karla;
+    color: rgb(2, 2, 2);
+    text-align: center;
+    background-color:rgb(238, 248, 255);
+    border: 1.8px solid;
+    border-color: black;
+    box-shadow: inset;
+    float: left;
+    line-height: 24px;
+    margin: 12px;
+    padding: 8px;
+    overflow: hidden;
+    filter: drop-shadow(0 0 0.25rem rgb(59, 59, 59));
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.list-item:hover {
+    top: -12px;
+    rotate: -12deg;
+}
+
+.details {
+    margin-top: 12px;
+    text-align: center;
+    margin-right: 12px;
+    color: white;
+    margin-bottom: 12px
+}
+
+.question {
+    font-family: Karla;
+    color: white;
+    text-align: center;
+}

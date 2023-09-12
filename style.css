@@ -1,11 +1,24 @@
       html {
         cursor: url(money.gif), auto;
-        background-color: white;
+      }
+
+      body {
+        background:url('spoon.gif');
+        height:100%;
+        width:100%;
+        background-size: cover;
       }
 
       h1 {
-        color: rgb(76, 197, 106);
+        color: rgb(61, 226, 102);
         text-align: center;
+        font-family: "Cormorant Infant";
+      }
+
+      h4 {
+      text-align: center;
+      font-family: "Karla";
+      color: white;
       }
 
       .blankspace {
@@ -14,7 +27,7 @@
       }
 
       p {
-        font-family: 'Lucida Sans';
+        font-family: "Cormorant Infant";
         font-size: 20px;
       }
 
@@ -24,11 +37,7 @@
 
       .nohead {
         font-size: 64px;
-      }
-
-      .tinyh4 {
-        font-size: 24px;
-        color: coral;
+        font-family: "Karla";
       }
 
       .li {
@@ -40,6 +49,7 @@
 
       .nohead {
         font-size: 64px;
+        font-family: "Karla";
       }
 
       .mama {
@@ -48,24 +58,47 @@
       }
 
       .baby {
-        margin-left: 48px;
+        font-family: "Karla";
+        margin-left: auto;
         font-size: 24px;
         display: inline-block;
         padding: 12px;
         vertical-align: middle;
-        color: rgb(80, 147, 255);
+        color: rgb(242, 114, 229);
       }
       
       h2 a { 
-        position:relative; 
+        position: absolute;
+        font-size: 24px;
+        text-align: right;
+        width: 99%;
+        font-family: "Karla";
+        color: white;
+        bottom: 95.58%;
       }
       
       h2 a span { 
-        position:absolute; 
-        display:none; 
+        position:absolute ; 
+        display:none;
         z-index:99; 
       }
 
       h2 a:hover span { 
         display:block; 
+      }
+
+      .photo {
+        display: block;
+        margin: auto;
+        width: 14%;
+        bottom: 0px;
+        position: fixed;
+      }
+
+      .header {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        overflow: hidden;
+        vertical-align: middle;
       }
