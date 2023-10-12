@@ -1,0 +1,106 @@
+body {
+    background-color: white;
+    font-family: Karla;
+    color: white;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.last-text { display:none; }
+
+.left-hand {
+    position: relative;
+    width: 160px;
+    z-index: 0;
+}
+
+.right-hand {
+    position: relative;
+    width: 160px;
+    z-index: 0;
+}
+
+.rubber { 
+    position: relative;
+    border-radius: 50%;
+    height: 60px;
+    border: 20px solid #bd1919;
+    z-index: -2;
+    bottom: 20px;
+    left: 15px;
+}
+
+.all {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+
+
+@media screen and (min-width: 300px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    .rubber {
+        width: 15%;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    body {
+        background-color: rgb(99, 88, 91);
+        color: black;
+    }
+    .rubber {
+        width: 25%;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        background-color: rgb(130, 91, 102);
+        color: black;
+    }
+
+    .rubber {
+        width: 50%;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: rgb(201, 102, 130);
+        color: white;
+    }
+
+    .rubber {
+        width: 75%;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    body {
+        background-color: rgb(219, 24, 79);
+        color: white;
+    }
+
+    .rubber {
+        width: 95%;
+        display: block;
+    }
+    
+    .last-text { display:inline-block; }
+    .text { display: none; }
+}
