@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javaaaaaaaaaa</title>
+    <link rel="stylesheet" href="java.css">
+</head>
+
+<body>
+    <button onClick="change()" id="myButton">What are you hiding?</button>
+    <div id="bg" class="bimage"></div>
+    <div id="menyu" class="sidebar">
+        <img src="download.jpeg" width="400">
+    </div>
+    <div id="spin" class="porridge"></div>
+    <script>
+        function change() {
+            var menyu = document.getElementById("menyu");
+            var spin = document.getElementById("spin");
+            var bg = document.getElementById("bg");
+            var button = document.getElementById("myButton");
+            menyu.classList.toggle("active");
+            spin.classList.toggle("spill");
+            bg.classList.toggle("reveal");
+            
+            if (button.innerHTML.indexOf("What are you hiding?") != -1) {
+                button.innerHTML = "nothing....";
+             } else {
+                button.innerHTML = "What are you hiding?";
+             }
+
+        }
+    </script>
+</body>
+
+</html>
