@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/addons/p5.sound.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>climb scary rocks</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+        #mountain {
+            width: 800px;
+            height: 600px;
+            background-image: url('mountain.png');
+            background-size: cover;
+            position: relative;
+        }
+        #character {
+            width: 100px;
+            height: 100px;
+            background-image: url('character.png');
+            background-size: cover;
+            position: relative;
+            bottom: -90%;
+            left: 50%;
+            transform: translateX(-50%);
+            transition: all 0.5s ease-in-out;
+        }
+        #question-input {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #word-container {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 48px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="htsaakf.html"><img src="white-logo.svg" width="100"></a>
+    <div id="word-container"></div>
+    <div id="mountain">
+        <div id="question-input">
+            <label for="question">ask me anything</label>
+            <input type="text" id="question" />
+        </div>
+        <div id="character"></div>
+    </div>
+    <script src="climb.js"></script>
+</body>
+</html>
